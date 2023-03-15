@@ -1,3 +1,4 @@
+import { Counters } from './components/Counters';
 import { Header } from './components/Header';
 import { SearchBar } from './components/SearchBar';
 
@@ -7,6 +8,7 @@ export const App = () => {
       <Header />
       <main>
         <SearchBar />
+        <Counters />
       </main>
     </div>
   );

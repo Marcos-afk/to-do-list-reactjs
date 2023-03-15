@@ -1,0 +1,30 @@
+.counters {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.tasks {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tasks span {
+  background: var(--gray-400);
+  color: var(--gray-200);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.125rem 0.5rem;
+  border-radius: 2rem;
+}
+
+.tasksCreated {
+  color: var(--blue);
+  font-size: 0.875rem;
+}
+
+.completedTasks {
+  color: var(--purple);
+  font-size: 0.875rem;
+}
