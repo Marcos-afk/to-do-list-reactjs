@@ -1,0 +1,30 @@
+.emptyList {
+  display: flex;
+  margin-top: 1.5rem;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 0.5rem;
+  padding: 4rem 0;
+}
+
+.emptyList img {
+  height: 3.5rem;
+}
+
+.emptyListTextsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emptyListTextsContainer span {
+  font-size: 1rem;
+  line-height: 140%;
+  color: var(--gray-300);
+}
+
+.emptyListTextsContainer span:first-child {
+  font-weight: 700;
+}

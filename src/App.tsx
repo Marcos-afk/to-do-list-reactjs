@@ -1,6 +1,7 @@
 import { Counters } from './components/Counters';
 import { Header } from './components/Header';
 import { InsertionBar } from './components/InsertionBar';
+import { EmptyList } from './components/EmptyList';
 
 export const App = () => {
   return (
@@ -9,6 +10,7 @@ export const App = () => {
       <main>
         <InsertionBar />
         <Counters />
+        <EmptyList />
       </main>
     </div>
   );
