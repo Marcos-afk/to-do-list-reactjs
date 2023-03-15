@@ -1,13 +1,13 @@
 import { Counters } from './components/Counters';
 import { Header } from './components/Header';
-import { SearchBar } from './components/SearchBar';
+import { InsertionBar } from './components/InsertionBar';
 
 export const App = () => {
   return (
     <div>
       <Header />
       <main>
-        <SearchBar />
+        <InsertionBar />
         <Counters />
       </main>
     </div>

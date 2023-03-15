@@ -1,9 +1,9 @@
 import styles from './styles.module.scss';
 import PlusSvg from '../../assets/plus.svg';
 
-export const SearchBar = () => {
+export const InsertionBar = () => {
   return (
-    <div className={styles.searchBar}>
+    <div className={styles.insertionBar}>
       <input type="text" placeholder="Adicione uma nova tarefa" />
       <button>
         <span>Criar</span>

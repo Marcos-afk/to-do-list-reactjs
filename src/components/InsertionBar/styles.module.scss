@@ -1,11 +1,11 @@
-.searchBar {
+.insertionBar {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   margin-top: calc(0px - 1.8rem + 6px);
 }
 
-.searchBar input[type='text'] {
+.insertionBar input[type='text'] {
   width: 100%;
   padding: 0.8rem;
   border-radius: 0.5rem;
@@ -16,11 +16,11 @@
   transition: filter 1s;
 }
 
-.searchBar button:hover {
+.insertionBar button:hover {
   filter: brightness(0.9);
 }
 
-.searchBar button {
+.insertionBar button {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -31,7 +31,7 @@
   background-color: var(--blue-dark);
 }
 
-.searchBar button span {
+.insertionBar button span {
   font-size: 0.875rem;
   line-height: 140%;
 }
