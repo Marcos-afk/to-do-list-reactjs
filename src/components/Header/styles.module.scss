@@ -1,4 +1,4 @@
-.header {
+.container {
   display: flex;
   background: var(--gray-700);
   padding: 5rem 0;
@@ -6,6 +6,6 @@
   justify-content: center;
 }
 
-.header img {
-  height: 2rem;
+.container img {
+  height: 3rem;
 }
