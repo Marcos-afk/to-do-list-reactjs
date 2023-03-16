@@ -17,7 +17,12 @@
 }
 
 .insertionBar button:hover {
-  filter: brightness(0.9);
+  background-color: var(--blue);
+}
+
+.insertionBar input[type='text']:focus {
+  border: 1px solid var(--purple);
+  color: var(--gray-100);
 }
 
 .insertionBar button {
